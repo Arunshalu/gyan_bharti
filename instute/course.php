@@ -26,7 +26,7 @@
 
  <?php foreach($value as $k1 =>$v1) { ?>
 
-		<div class="col-md-4 <?php echo substr(str_replace(' ', '_', $key),'0','-5'); ?>">
+		<div class="col-md-3 <?php echo substr(str_replace(' ', '_', $key),'0','-5'); ?>">
 			<div class="product-item">
 				<div class="product-img">
 					<div class="card mb-3" style="max-width: 400px;">

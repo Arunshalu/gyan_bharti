@@ -16,10 +16,11 @@
 	<style type="text/css">
 	*{
 		/*font-family: 'Quicksand', sans-serif;*/
+		zoom:  99%;
 	}
 	.btn-orange{
 		background-color: #F7941D; 
-		/*orange */
+		/*orange */	
 	}
 	.text-orange{
 		color: #F7941D; 
