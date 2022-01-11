@@ -504,7 +504,7 @@ $all_course = array(
 		),		
 		// XXX Course Name
 
-						// Course Name
+		// Course Name
 		'Diploma Programme In Material Management 2 Year' => array(
 			'sem' => array(
 				
@@ -516,7 +516,31 @@ $all_course = array(
 		),		
 		// XXX Course Name
 
-			// Course Name
+		// Course Name
+		'Diploma Programme In Rural Development' => array(
+			'sem' => array(
+				'Semester 1' => array(
+
+					'1'=>'Rural Society',
+					'2'=>'Rural Development in India',
+					'3'=>'Rural Social Problems',
+
+				),
+				'Semester 2' => array(
+					'1'=>'Rural Development Institutions & Entrepreneurship',
+					'2'=>'Rural Resource Management',
+					'3'=>'Rural Development in Odisha',
+
+				)				
+			),
+			'data' => array(
+				'Duration' => '1 Year',
+				'Eligibility' => '12th'				
+			)
+		),		
+		// XXX Course Name
+
+// Course Name
 		'Diploma Programme In Food & Safety' => array(
 			'sem' => array(
 				'Semester 1' => array(
@@ -666,71 +690,8 @@ $all_course = array(
 			)
 		),		
 		// XXX Course Name
-
-						// Course Name
-		'Diploma Programme In Electronics & Communication Engineering' => array(
-			'sem' => array(
-				'Semester 1' => array(
-
-				'1'=>'English Communication',
-				'2'=>'Applied Mathematics-I',
-				'3'=>'Applied Physics',
-				'4'=>'Engineering Mechanics & Materials',
-
-
-				),
-				'Semester 2' => array(
-				'1'=>'Applied Mathematics-II',
-				'2'=>'Industrial Electronics',
-				'3'=>'Electronic Components And Device',
-				'4'=>'Applied Chemistry',
-
-
-				),
-				'Semester 3' => array(
-				'1'=>'Electronic Devices and Circuits',
-				'2'=>'Electrical Circuits and Instrumentation',
-				'3'=>'Principles of Digital Electronics',
-				'4'=>'Computer Programming & Application',
-
-				),
-
-				'Semester 4' => array(
-				'1'=>'Microcontrollers and Its Application',
-				'2'=>'Linear Integrated Circuits',
-				'3'=>'Industrial Electronics & Communication',
-				'4'=>'Audio & Video Systems',
-
-				),
-
-				'Semester 5' => array(
-
-				'1'=>'Advanced Communication Systems',
-				'2'=>'Very Large Scale Integration',
-				'3'=>'Electronic Instruments And Measurement',
-				'4'=>'Programmable Logic Control',
-
-
-				),
-				'Semester 6' => array(
-				'1'=>'Advanced Microprocessors',
-				'2'=>'Microwave & Radar Engineering',
-				'3'=>'Embedded Systems',
-				'4'=>'Project & Viva',
-
-				),
-
-				
-			),
-			'data' => array(
-				'Duration' => '3 Year',
-				'Eligibility' => '10th'				
-			)
-		),		
-		// XXX Course Name
-
-
-						// Course Name
+		
+		// Course Name
 		'Diploma Programme In Electronics & Communication Engineering' => array(
 			'sem' => array(
 				'Semester 1' => array(
@@ -1448,7 +1409,7 @@ $all_course = array(
 		),		
 		// XXX Course Name
 
-											// Course Name
+		// Course Name
 		'Diploma Programme In Computer Science Engineering' => array(
 			'sem' => array(
 				'Semester 1' => array(
@@ -1502,6 +1463,34 @@ $all_course = array(
 			'data' => array(
 				'Duration' => '3 Year',
 				'Eligibility' => '10th'				
+			)
+		),		
+		// XXX Course Name
+
+		// Course Name
+		'Advance Diploma In Electrical Engineering' => array(
+			'sem' => array(
+				'Semester 1' => array(
+				'1'=>'Applied Science',
+				'2'=>'Applied Mathematics',
+				'3'=>'Electrical Machines',
+				'4'=>'Electrical Power Generation',
+				'5'=>'Switchgear and Protection',
+				'6'=>'Industrial Automation',
+
+				),
+				'Semester 2' => array(
+				'1'=>'Electrical & Electronics',
+				'2'=>'Mechatronics',
+				'3'=>'Electrical Circuits',
+				'4'=>'Elements of Electrical Engineering',
+				'5'=>'Transmission and Distribution',
+				'6'=>'Power Electronics',
+				)			
+			),
+			'data' => array(
+				'Duration' => '1 Year',
+				'Eligibility' => '10th OR 12th'				
 			)
 		),		
 		// XXX Course Name
