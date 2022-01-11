@@ -129,4 +129,11 @@
   		background-color: #F7941D;
   		color: black;
   	}
+  	.td-link:hover
+  	{
+  		color: #F7941D;
+  		background-color: black; 
+  		padding: 5px;
+  		transition: all 0.2s;
+  	}
 </style>

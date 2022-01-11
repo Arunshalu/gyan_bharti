@@ -105,13 +105,18 @@
 
 															<tbody>
 																<?php 
-																foreach($value as $k1 =>$v1):
-																	?>
+																foreach($value as $k1 =>$v1):?>
 																	<tr>
-																		<td class="m-0 p-0 border-0">
-																			<a href="full_details.php?category=<?=$key?>&subcate=<?=$k1?>" class=" text-reset text-decoration-none text-capitalize" ><?php echo $k1 ?></a>
+																		<td class="m-0 p-0">
+				<a href="full_details.php?category=<?=$key?>&subcate=<?=$k1?>" class="text-decoration-none text-capitalize td-link" ><?php echo $k1 ?></a>
 																		</td>
-																		<td></td>
+																		<td>
+																		<?php
+																		echo 'SEMESTER - '.count($v1['sem']);
+																		echo ' | ';
+																		echo 'Duration -'.$v1['data']['Duration'];
+
+																		?></td>
 																	</tr>
 																<?php endforeach; ?>
 															</tbody>
